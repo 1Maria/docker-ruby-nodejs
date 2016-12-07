@@ -25,7 +25,7 @@ describe "Dockerfile" do
   end
 
   describe command('npm -v') do
-    its(:stdout) { should match /2\.\d{1,2}\.\d{1,2}/ }
+    its(:stdout) { should match /3\.\10\.\9/ }
   end
 
   def os_version
