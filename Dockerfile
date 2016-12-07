@@ -21,7 +21,7 @@ RUN set -ex \
   done
 
 ENV NPM_CONFIG_LOGLEVEL info
-ENV NODE_VERSION 4.2.2
+ENV NODE_VERSION 6.9.2
 
 RUN \
   cd /tmp && \
